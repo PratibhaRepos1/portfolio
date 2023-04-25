@@ -23,7 +23,7 @@ html {
     color: #333;
     text-transform: uppercase;
     letter-spacing: .5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     border-bottom: .3rem solid #333;
     text-shadow: .2rem .2rem .5rem #555;
 }
@@ -36,8 +36,10 @@ html {
     /* background: linear-gradient(rgba(255, 255, 255, 0.2), 
     rgba(255, 255, 255, 0.3)),
     url(images/bg3.jpg) center no-repeat; */
-
-    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+  /* 
+  linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(255, 255, 255, 0.9)),*/
+    background:  linear-gradient(rgba(0, 0, 0, 0.7), 
     rgba(255, 255, 255, 0.9)),
     url(images/bg2.webp) center no-repeat;
 
@@ -63,7 +65,7 @@ html {
     height: 368px;
     object-fit: cover;
     border-radius: 50%;
-    border: 0.7rem dotted #000;
+    border: 0.7rem solid  #fff;
     background-color: rgba(255, 255, 255);
     
    
@@ -148,7 +150,7 @@ html {
 .section-2 {
     height: 100%;
     width: 100%;
-    padding: 15rem 0 10rem 0;
+    padding: 10rem 0 10rem 0;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -216,6 +218,12 @@ html {
     letter-spacing: .3rem;
     transform: skew(-10deg);
     box-shadow: .2rem .2rem .5rem #555;
+}
+.paragraph-1 {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #777;
+ 
 }
 /* section 2 */
 
